@@ -1,0 +1,16 @@
+.portfolio-header {
+  font-size: 1.15em;
+}
+
+.portfolio-header div,
+.portfolio-header nav {
+  background: linear-gradient(180deg, #09203F, #537895);
+  color: #FFFFFF;
+}
+
+
+.portfolio-header a:hover{
+  text-decoration: underline;
+  text-decoration-color: gold;
+  text-decoration-thickness: 2px;
+}

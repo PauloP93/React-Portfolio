@@ -1,0 +1,74 @@
+{
+  "Name": "Paulo Pimenta",
+  "HomeDescription": "I am a passionate Software Developer that enjoys crafting innovative solutions with code.\n Let's talk code ?",
+  "Description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!",
+  "Github": "https://github.com/PauloPimenta",
+  "Linkedin": "https://www.linkedin.com/in/paulo-pimenta/",
+  "MyImg": "https://media.licdn.com/dms/image/v2/C4E03AQFNrR9Yv6pVfw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1597079568865?e=1738195200&v=beta&t=LA3AboSSr4nyL8cxREPlRmYIBgWIky95bxXh5eqnR8A",
+  "Techstack": [
+    {
+      "Name": "AWS",
+      "Image": "/images/aws-svgrepo-com.svg"
+    },
+    {
+      "Name": "Azure",
+      "Image": "/images/azure-svgrepo-com.svg"
+    },
+    {
+      "Name": "Bootstrap",
+      "Image": "/images/bootstrap-svgrepo-com.svg"
+    },
+    {
+      "Name": "C#",
+      "Image": "/images/csharp-svgrepo-com.svg"
+    },
+    {
+      "Name": "CSS3",
+      "Image": "/images/css3-svgrepo-com.svg"
+    },
+    {
+      "Name": "Docker",
+      "Image": "/images/docker-svgrepo-com.svg"
+    },
+    {
+      "Name": ".NET",
+      "Image": "/images/dotnet-svgrepo-com.svg"
+    },
+    {
+      "Name": "HTML5",
+      "Image": "/images/html-5-svgrepo-com.svg"
+    },
+    {
+      "Name": "Javascript",
+      "Image": "/images/javascript-svgrepo-com.svg"
+    },
+    {
+      "Name": "NodeJS",
+      "Image": "/images/node-js-svgrepo-com.svg"
+    },
+    {
+      "Name": "Postgresql",
+      "Image": "/images/postgresql-svgrepo-com.svg"
+    },
+    {
+      "Name": "Python",
+      "Image": "/images/python-svgrepo-com.svg"
+    },
+    {
+      "Name": "React",
+      "Image": "/images/react-svgrepo-com.svg"
+    },
+    {
+      "Name": "Salesforce",
+      "Image": "/images/salesforce-svgrepo-com.svg"
+    },
+    {
+      "Name": "SQL",
+      "Image": "/images/sql-database-generic-svgrepo-com.svg"
+    },
+    {
+      "Name": "Tailwind",
+      "Image": "/images/tailwind-svgrepo-com.svg"
+    }
+  ]
+}
