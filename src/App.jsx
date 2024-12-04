@@ -1,6 +1,7 @@
 import "./App.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import data from "./data/portfolio-data.json";
+import ServiceData from "./data/services-data.json";
 import ErrorPage from "./pages/ErrorPage";
 import HomePage from "./pages/Home";
 import AboutPage from "./pages/AboutMe";
@@ -32,7 +33,10 @@ function App() {
         { path: "/about", element: <AboutPage /> },
         { path: "/skills", element: <SkillsPage /> },
         { path: "/projects", element: <ProjectsPage /> },
-        { path: "/services", element: <ServicesPage /> },
+        {
+          path: "/services",
+          element: <ServicesPage Services={ServiceData.services} />,
+        },
         { path: "/contacts", element: <ContactsPage /> },
       ],
     },

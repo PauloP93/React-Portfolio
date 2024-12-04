@@ -1,0 +1,71 @@
+{
+  "services": [
+    {
+      "service": "Website Development",
+      "description": "Custom responsive websites with up to 5 pages, basic SEO, and deployment.",
+      "price_range": "1,000-5,000"
+    },
+    {
+      "service": "E-Commerce Development",
+      "description": "Online stores with product catalog (up to 50 items), secure payment gateways, and inventory management.",
+      "price_range": "2,000-8,000"
+    },
+    {
+      "service": "Custom Web Applications",
+      "description": "Tailored web applications (e.g., dashboards, booking systems) with full-stack development and API integration.",
+      "price_range": "3,000+"
+    },
+    {
+      "service": "Website Maintenance",
+      "description": "Regular updates, backups, and security monitoring. Monthly plans available (Basic or Premium).",
+      "price_range": "150-300/month"
+    },
+    {
+      "service": "Search Engine Optimization",
+      "description": "Improve website ranking with keyword research, speed optimization, and analytics setup.",
+      "price_range": "500-2,000"
+    },
+    {
+      "service": "UX/UI Design",
+      "description": "Intuitive, user-friendly designs including wireframes, mockups, and usability testing.",
+      "price_range": "1,000-3,000"
+    },
+    {
+      "service": "Consulting & Code Review",
+      "description": "Expert advice on frameworks, coding best practices, and performance optimization.",
+      "price_range": "50/hour"
+    },
+    {
+      "service": "Performance Optimization",
+      "description": "Enhance page load speed, code efficiency, and server performance.",
+      "price_range": "500-1,500"
+    }
+  ],
+  "add_ons_and_packages": [
+    {
+      "add_on": "Additional Website Pages",
+      "description": "Each extra page added to a website project.",
+      "price": "150 per page"
+    },
+    {
+      "add_on": "Multi-Language Support",
+      "description": "Implement multi-language functionality for e-commerce or websites.",
+      "price": "500"
+    },
+    {
+      "add_on": "Additional Product Setup",
+      "description": "Add more products to your e-commerce catalog beyond the initial setup.",
+      "price": "5 per product"
+    },
+    {
+      "add_on": "Startup Package",
+      "description": "Includes a 5-page website, basic SEO, and one month of support.",
+      "price": "2,500"
+    },
+    {
+      "add_on": "Long-Term Collaboration",
+      "description": "Discount for ongoing projects or retainer agreements.",
+      "price": "10% off"
+    }
+  ]
+}

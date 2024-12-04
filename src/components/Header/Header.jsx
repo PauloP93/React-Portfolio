@@ -1,24 +1,41 @@
 import "./Header.css";
 import { NavLink } from "react-router-dom";
-import { FaCode } from "react-icons/fa6";
+import { MdKeyboardArrowRight } from "react-icons/md";
 
 export default function Header() {
   return (
-    <header className="portfolio-header w-screen h-16 border-b-2 border-slate-300 flex flex-row">
+    <header className="portfolio-header w-screen h-32 p-2 flex flex-row">
       <div className="flex w-1/5 h-full justify-center items-center bg-white">
         <NavLink to="/">
-          <span className="flex justify-center items-center">
-            <FaCode className="mr-2"/>
-            Paulo Pimenta
-          </span>
+          <img src="./cpu.png" className="w-16 h-16" />
         </NavLink>
       </div>
-      <nav className="w-4/5 flex flex-row h-full [&>a]:mr-10 justify-end items-center bg-white">
-        <NavLink to="/services">Services</NavLink>
-        <NavLink to="/projects">Projects</NavLink>
-        <NavLink to="/skills">Skills</NavLink>
-        <NavLink to="/about">About me</NavLink>
-        <NavLink to="/contacts">Contacts</NavLink>
+      <nav className="w-full flex flex-row h-full [&>a]:mr-10 justify-end items-center bg-white">
+        <NavLink to="/services" className="tomorrow-regular">
+          <span className="flex flex-row align-middle justify-center items-center">
+            Services
+          </span>
+        </NavLink>
+        <NavLink to="/projects" className="tomorrow-regular">
+          <span className="flex flex-row align-middle justify-center items-center">
+            Projects
+          </span>
+        </NavLink>
+        <NavLink to="/skills" className="tomorrow-regular">
+          <span className="flex flex-row align-middle justify-center items-center">
+            Skills
+          </span>
+        </NavLink>
+        <NavLink to="/about" className="tomorrow-regular">
+          <span className="flex flex-row align-middle justify-center items-center">
+            About
+          </span>
+        </NavLink>
+        <NavLink to="/contacts" className="tomorrow-regular">
+          <span className="flex flex-row align-middle justify-center items-center">
+            Contacts
+          </span>
+        </NavLink>
       </nav>
     </header>
   );

@@ -1,8 +1,6 @@
-
 body {
-  font-family: "Orbitron", "Montserrat", sans-serif;
   color: #ffffff;
-  background: linear-gradient(25deg, #09203F, #537895);
+  background: linear-gradient(180deg, #0b0b0b 80%, #400000 100%, #600000 200%);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

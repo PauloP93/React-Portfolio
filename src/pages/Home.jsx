@@ -1,43 +1,36 @@
-import SocialLink from "../components/Links/SocialLink";
-import Carrousel from "../components/Links/Carrousel";
-import { FaGithub } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa6";
-
+import CyberpunkTechLines from "../components/CyberpunkTechlines/CyberpunkTechLines";
+import CyberpunkH1 from "../components/CyberpunkTitle/CyberpunkH1";
+import SocialLink from "../components/Links/SocialLink.jsx";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 export default function HomePage({
   homeDescription,
   github,
   linkedin,
   carrouselImgs,
-  myImg
+  myImg,
 }) {
   return (
-    <div className="p-6 text-center">
-      <section className="p-2 text-center">
-        <h1 className="text-4xl font-bold">
-          Hi! I'm Paulo Pimenta and this is my portfolio
-        </h1>
-        <span className="mt-12 size-8 text-2xl">{homeDescription}</span>
-        <img
-          className="rounded-full w-52 h-52 mt-12 m-auto"
-          src={myImg}
-          alt=""
-        />
-        {/* Add img of me here */}
-      </section>
-      <section className="p-2 mt-10 text-center items-center justify-center">
-        <h1 className="italic text-5xl text-center mb-7">
-          Building Scalable Solutions for a Digital Future
-        </h1>
-        <Carrousel images={carrouselImgs} />
-
-        <div className="flex flex-row justify-center">
-          <SocialLink img={<FaGithub className="size-10" />} link={github} />
+    <section className="pr-5 flex flex-row">
+      <div className="w-1/2">
+        <CyberpunkH1 text="Paulo Pimenta" cssClasses="text-8xl mb-7" />
+        <p className="text-[1.2em] text-white tomorrow-regular mb-3">
+          {homeDescription}
+        </p>
+        <div className="flex flex-row p-0">
+          <SocialLink
+            img={<FaGithub className="size-10" />}
+            link="https://github.com/PauloPimenta"
+          />
           <SocialLink
             img={<FaLinkedin className="size-10" />}
-            link={linkedin}
+            link="https://www.linkedin.com/in/paulo-pimenta/"
           />
         </div>
-      </section>
-    </div>
+      </div>
+      <div className="w-1/2">
+        <CyberpunkTechLines />
+      </div>
+    </section>
   );
 }

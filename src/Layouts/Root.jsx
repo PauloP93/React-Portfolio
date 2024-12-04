@@ -7,7 +7,9 @@ function RootLayout() {
     <>
       <Header />
       <main className="w-full h-full root-layout">
-        <Outlet />
+        <div className="p-6">
+          <Outlet />
+        </div>
       </main>
     </>
   );
