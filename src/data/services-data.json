@@ -1,71 +1,89 @@
 {
-  "services": [
+  "freelancing_services": [
     {
-      "service": "Website Development",
-      "description": "Custom responsive websites with up to 5 pages, basic SEO, and deployment.",
-      "price_range": "1,000-5,000"
+      "service": "CRM Solutions Development",
+      "description": "Customizing CRM platforms and implementing integrations to enhance business processes.",
+      "suggested_pricing_eur": "30-50/hour"
     },
     {
-      "service": "E-Commerce Development",
-      "description": "Online stores with product catalog (up to 50 items), secure payment gateways, and inventory management.",
-      "price_range": "2,000-8,000"
+      "service": "Website and Web Application Development",
+      "description": "Developing and maintaining websites and web applications tailored to client needs.",
+      "suggested_pricing_eur": "25-40/hour"
     },
     {
-      "service": "Custom Web Applications",
-      "description": "Tailored web applications (e.g., dashboards, booking systems) with full-stack development and API integration.",
-      "price_range": "3,000+"
+      "service": "System Integration Services",
+      "description": "Creating seamless connections between different software systems for improved data flow.",
+      "suggested_pricing_eur": "30-50/hour"
     },
     {
-      "service": "Website Maintenance",
-      "description": "Regular updates, backups, and security monitoring. Monthly plans available (Basic or Premium).",
-      "price_range": "150-300/month"
+      "service": "UI/UX Support",
+      "description": "Assisting in designing and implementing user interfaces with a focus on usability.",
+      "suggested_pricing_eur": "20-35/hour"
     },
     {
-      "service": "Search Engine Optimization",
-      "description": "Improve website ranking with keyword research, speed optimization, and analytics setup.",
-      "price_range": "500-2,000"
+      "service": "DevOps and Automation",
+      "description": "Setting up and optimizing development workflows and automated deployment pipelines.",
+      "suggested_pricing_eur": "35-60/hour"
     },
     {
-      "service": "UX/UI Design",
-      "description": "Intuitive, user-friendly designs including wireframes, mockups, and usability testing.",
-      "price_range": "1,000-3,000"
+      "service": "Agile Project Support",
+      "description": "Providing guidance and support in Agile project management and team workflows.",
+      "suggested_pricing_eur": "20-30/hour"
     },
     {
-      "service": "Consulting & Code Review",
-      "description": "Expert advice on frameworks, coding best practices, and performance optimization.",
-      "price_range": "50/hour"
+      "service": "Workflow and Process Automation",
+      "description": "Designing and automating workflows to streamline business operations.",
+      "suggested_pricing_eur": "25-40/hour"
     },
     {
-      "service": "Performance Optimization",
-      "description": "Enhance page load speed, code efficiency, and server performance.",
-      "price_range": "500-1,500"
-    }
-  ],
-  "add_ons_and_packages": [
-    {
-      "add_on": "Additional Website Pages",
-      "description": "Each extra page added to a website project.",
-      "price": "150 per page"
+      "service": "Database Design and Management",
+      "description": "Designing, managing, and optimizing databases for robust and efficient data handling.",
+      "suggested_pricing_eur": "30-50/hour"
     },
     {
-      "add_on": "Multi-Language Support",
-      "description": "Implement multi-language functionality for e-commerce or websites.",
-      "price": "500"
+      "service": "Document Workflow Solutions",
+      "description": "Developing systems for managing documents, including automation and integrations.",
+      "suggested_pricing_eur": "25-40/hour"
     },
     {
-      "add_on": "Additional Product Setup",
-      "description": "Add more products to your e-commerce catalog beyond the initial setup.",
-      "price": "5 per product"
+      "service": "Automation and Scripting",
+      "description": "Creating scripts and bots to automate repetitive tasks and enhance productivity.",
+      "suggested_pricing_eur": "25-40/hour"
     },
     {
-      "add_on": "Startup Package",
-      "description": "Includes a 5-page website, basic SEO, and one month of support.",
-      "price": "2,500"
+      "service": "Technical Writing and Documentation",
+      "description": "Producing clear and detailed technical documentation for systems and processes.",
+      "suggested_pricing_eur": "20-30/hour"
     },
     {
-      "add_on": "Long-Term Collaboration",
-      "description": "Discount for ongoing projects or retainer agreements.",
-      "price": "10% off"
+      "service": "AWS Cloud Deployment",
+      "description": "Deploying and managing applications on AWS using services like EC2, Lambda, and S3.",
+      "suggested_pricing_eur": "30-50/hour"
+    },
+    {
+      "service": "AWS Infrastructure Setup",
+      "description": "Setting up scalable and secure cloud infrastructure using AWS services.",
+      "suggested_pricing_eur": "35-60/hour"
+    },
+    {
+      "service": "Cloud Migration Services",
+      "description": "Assisting businesses in migrating their applications and data to AWS.",
+      "suggested_pricing_eur": "40-70/hour"
+    },
+    {
+      "service": "AWS DevOps Automation",
+      "description": "Building CI/CD pipelines and automating deployments using AWS tools like CodePipeline and CloudFormation.",
+      "suggested_pricing_eur": "35-60/hour"
+    },
+    {
+      "service": "AWS Security Configuration",
+      "description": "Configuring AWS security groups, IAM roles, and encryption for secure cloud environments.",
+      "suggested_pricing_eur": "30-50/hour"
+    },
+    {
+      "service": "AWS Cost Optimization",
+      "description": "Analyzing and optimizing AWS usage to reduce costs while maintaining performance.",
+      "suggested_pricing_eur": "30-50/hour"
     }
   ]
 }

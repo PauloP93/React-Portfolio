@@ -3,13 +3,8 @@ import CyberpunkH1 from "../components/CyberpunkTitle/CyberpunkH1";
 import SocialLink from "../components/Links/SocialLink.jsx";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-export default function HomePage({
-  homeDescription,
-  github,
-  linkedin,
-  carrouselImgs,
-  myImg,
-}) {
+import { FaSquareUpwork } from "react-icons/fa6";
+export default function HomePage({ homeDescription }) {
   return (
     <section className="pr-5 flex flex-row">
       <div className="w-1/2">
@@ -25,6 +20,10 @@ export default function HomePage({
           <SocialLink
             img={<FaLinkedin className="size-10" />}
             link="https://www.linkedin.com/in/paulo-pimenta/"
+          />
+          <SocialLink
+            img={<FaSquareUpwork className="size-10" />}
+            link="https://www.upwork.com/freelancers/~019157edb8e9d95d73?mp_source=share"
           />
         </div>
       </div>

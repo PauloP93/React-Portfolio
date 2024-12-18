@@ -1,17 +1,16 @@
-.cyberpunk-service-tile {
-  display: inline-block;
-  padding: 10px 30px;
+.cyberpunk-project-tile {
+  display: block;
+  padding: 1.2em;
   color: #ffffff;
   text-transform: uppercase;
   font-family: "Tomorrow", sans-serif;
-  height: 6em;
-  width: 20em;
+  height: 22em;
+  width: 27em;
   font-weight: bold;
   font-size: 16px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: left;
+  justify-content: left;
+  align-items: start;
   text-decoration: none;
   position: relative;
   flex-basis: 20%;
@@ -20,16 +19,26 @@
   background: linear-gradient(180deg, #0b0b0b 80%, #400000 100%, #600000 200%);
   cursor: pointer;
   outline: none;
-  box-shadow: 0 0 15px 0px #800000;
 }
 
-.cyberpunk-service-tile::before {
+.cyberpunk-project-tile > * {
+  margin-bottom: 1em;
+}
+
+.cyberpunk-project-tile::before {
   border: 2px solid #800000; /* Outer border (dark red) */
   border-radius: 20px 0px 0px 20px; /* Top-left and bottom-right rounded corners */
   z-index: -1; /* Place behind the button */
 }
 
-.cyberpunk-service-tile:hover {
+.cyberpunk-project-tile:hover {
   color: #ffffff; /* Optional hover effect */
   background: linear-gradient(180deg, #400000 80%, #0b0b0b 100%, #600000 200%);
+}
+
+cyberpunk-project-tile label {
+  text-decoration-color: #800000;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-line: underline;
 }
