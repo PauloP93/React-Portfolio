@@ -3,6 +3,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import data from "./data/portfolio-data.json";
 import ServiceData from "./data/services-data.json";
 import ProjectData from "./data/projects-data.json";
+import SkillsData from "./data/skills-data.json";
 import ErrorPage from "./pages/ErrorPage";
 import HomePage from "./pages/Home";
 import AboutPage from "./pages/AboutMe";
@@ -32,7 +33,7 @@ function App() {
           ),
         },
         { path: "/about", element: <AboutPage /> },
-        { path: "/skills", element: <SkillsPage /> },
+        { path: "/skills", element: <SkillsPage skills={SkillsData} /> },
         { path: "/projects", element: <ProjectsPage Projects={ProjectData} /> },
         {
           path: "/services",

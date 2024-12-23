@@ -1,37 +1,31 @@
-.cyberpunk-skill-tile:before {
-  content: "";
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  right: 0;
-  bottom: 0;
-  border-top: 2px solid rgba(255, 0, 0, 0.8); /* Top border only */
-  border-left: 2px solid rgba(255, 0, 0, 0.8); /* Left border only */
-  border-radius: 10px 0 0 0; /* Add rounding only to the top-left corner */
-  box-shadow: 0 0 0px rgba(255, 0, 0, 0.8), 0 0 0px rgba(255, 0, 0, 0.6),
-    0 0 0px rgba(255, 0, 0, 0.4), inset 5px 5px 0px rgba(255, 0, 0, 0.8);
-  z-index: -1;
-}
-
 .cyberpunk-skill-tile {
-  position: relative;
-  max-width: 600px;
-  margin: 50px auto;
-  padding: 20px 30px;
-  /* border: 2px solid rgba(255, 0, 0, 0.8); Red neon border */
-  /* border-radius: 10px; */
-  color: #fff;
-  text-align: center;
-  font-size: 16px;
+  padding: 10px 30px;
+  color: #ffffff;
   text-transform: uppercase;
-  /* box-shadow: 0 0 10px rgba(255, 0, 0, 0.8), 0 0 20px rgba(255, 0, 0, 0.6),
-    0 0 40px rgba(255, 0, 0, 0.4), inset 10px 15px 0px rgba(255, 0, 0, 0.8); Inner glow */
+  font-family: "Tomorrow", sans-serif;
+  height: 3em;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  text-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border: 2px solid #ff0000;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #0b0b0b 80%, #400000 100%, #600000 200%);
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 0 15px 0px #800000;
 }
 
 .cyberpunk-skill-tile span {
   display: block;
   margin-top: 20px;
   color: rgba(255, 255, 255, 0.8);
-  font-size: 14px;
+  font-size: 0.8em;
   font-weight: bold;
+  word-wrap: normal;
+  overflow: hidden;
+  align-items: center;
 }

@@ -1,12 +1,11 @@
 import "./CyberpunkSkillTile.css";
 
-export default function CyberpunkSkillTile({ skillKey, SkillTitle }) {
+export default function CyberpunkSkillTile({ skillName }) {
   return (
-    <div
-      key={skillKey}
-      className="cyberpunk-skill-tile tomorrow-regular"
-    >
-      <span>{SkillTitle}</span>
-    </div>
+    <>
+      <div className="cyberpunk-skill-tile text-wrap tomorrow-regular h-16">
+        <span className="">{skillName}</span>
+      </div>
+    </>
   );
 }

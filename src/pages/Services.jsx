@@ -3,9 +3,14 @@ import CyberpunkBtn from "../components/CyberpunkButton/CyberpunkBtn";
 import CyberTechLines from "../components/CyberpunkTechlines/CyberpunkTechLines";
 import CyberpunkServiceTile from "../components/CyberpunkServiceTile/CyberpunkServiceTile";
 import "./Services.css";
+import { useNavigate } from "react-router-dom";
 
 export default function ServicesPage({ Services }) {
   let ServicesMapped = Object.entries(Services);
+
+  function handleBtnClick() {
+    useNavigate("/contacts");
+  }
 
   return (
     <>
@@ -35,7 +40,11 @@ export default function ServicesPage({ Services }) {
         <span className="text-white text-xl tomorrow-semibold relative text-center mt-3">
           Contact me to see how I can help you
         </span>
-        <CyberpunkBtn text="Contact me" cssClasses={"mt-3 items-center relative m-auto"} />
+        <CyberpunkBtn
+          text="Contact me"
+          cssClasses={"mt-3 items-center relative m-auto"}
+          navigateLink="/contacts"
+        />
       </section>
     </>
   );
