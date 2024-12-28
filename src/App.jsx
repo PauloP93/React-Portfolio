@@ -14,35 +14,43 @@ import ContactsPage from "./pages/Contacts";
 import RootLayout from "./Layouts/Root";
 
 function App() {
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <RootLayout />,
-      errorElement: <ErrorPage />,
-      children: [
-        {
-          index: true,
-          element: (
-            <HomePage
-              homeDescription={data.HomeDescription}
-              github={data.Github}
-              linkedin={data.Linkedin}
-              carrouselImgs={data.Techstack}
-              myImg={data.MyImg}
-            />
-          ),
-        },
-        { path: "/about", element: <AboutPage /> },
-        { path: "/skills", element: <SkillsPage skills={SkillsData} /> },
-        { path: "/projects", element: <ProjectsPage Projects={ProjectData} /> },
-        {
-          path: "/services",
-          element: <ServicesPage Services={ServiceData.freelancing_services} />,
-        },
-        { path: "/contacts", element: <ContactsPage /> },
-      ],
-    },
-  ]);
+  const router = createBrowserRouter(
+    [
+      {
+        path: "",
+        element: <RootLayout />,
+        errorElement: <ErrorPage />,
+        children: [
+          {
+            index: true,
+            element: (
+              <HomePage
+                homeDescription={data.HomeDescription}
+                github={data.Github}
+                linkedin={data.Linkedin}
+                carrouselImgs={data.Techstack}
+                myImg={data.MyImg}
+              />
+            ),
+          },
+          { path: "/about", element: <AboutPage /> },
+          { path: "/skills", element: <SkillsPage skills={SkillsData} /> },
+          {
+            path: "/projects",
+            element: <ProjectsPage Projects={ProjectData} />,
+          },
+          {
+            path: "/services",
+            element: (
+              <ServicesPage Services={ServiceData.freelancing_services} />
+            ),
+          },
+          { path: "/contacts", element: <ContactsPage /> },
+        ],
+      },
+    ],
+    { basename: "/React-Portfolio" }
+  );
 
   return (
     <>

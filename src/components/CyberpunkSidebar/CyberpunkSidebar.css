@@ -1,0 +1,13 @@
+.cyberpunk-sidebar {
+  background-color: #0b0b0b !important;
+  border-left: 2px solid #ff0000;
+  border-bottom: 2px solid #ff0000;
+  padding: 1em;
+  z-index: 1;
+}
+
+.cyberpunk-sidebar > a > span {
+  border: 2px solid red;
+  margin-bottom: 4px;  
+}
+
