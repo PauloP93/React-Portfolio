@@ -1,0 +1,119 @@
+[
+  {
+    "Programming Languages": [
+      "VBScript",
+      "C#",
+      "Lightning Components",
+      "Visualforce",
+      "Apex",
+      "XML",
+      "PL/SQL",
+      "HTML",
+      "JSON",
+      "Java",
+      "Python",
+      "PHP",
+      "XAML",
+      "CSS",
+      "C++",
+      "Javascript",
+      "SQL"
+    ]
+  },
+  {
+    "Databases": [
+      "SQL/MYSQL",
+      "SQLlite",
+      "CosmosDB",
+      "Microsoft SQL Server",
+      "MongoDB (Basic Knowledge)",
+      "PostgresSQL",
+      "Oracle 11g"
+    ]
+  },
+  {
+    "Frameworks": [
+      ".NET",
+      "React",
+      "Entity Framework / Entity FrameworkCore",
+      "Selenium WebDriver",
+      "Blazor Server",
+      "Blazor WASM",
+      "NodeJS",
+      "SAP UI5",
+      "Tailwind",
+      "NUnit Framework",
+      "Windows Communication Foundation (WCF)",
+      ".NET Core",
+      "ASP.NET",
+      ".NET Framework",
+      "RabbitMQ",
+      "Unity",
+      "Bootstrap 3/4",
+      "Docker",
+      "Image/Video Processing using OpenCV",
+      "JQuery",
+      "Ionic Framework Apache Cordova",
+      "Windows Presentation Foundation (WPF)",
+      "Android SDK"
+    ]
+  },
+  {
+    "Design Patterns": [
+      "MVC",
+      "MVVM pattern",
+      "Dependency Injection",
+      "Repository Pattern"
+    ]
+  },
+  { "Web Servers": ["Apache HTTP server", "IIS"] },
+  {
+    "Operating Systems": [
+      "Microsoft Windows 8",
+      "Microsoft Windows 10",
+      "Windows Server 2012 R2",
+      "Windows Server 2019",
+      "Linux/Ubuntu",
+      "Kali Linux",
+      "Microsoft XP/Vista",
+      "Debian Linux"
+    ]
+  },
+  {
+    "Integrated Development Environments (IDE)": [
+      "Android Studio",
+      "NetBeans",
+      "Microsoft Visual Studio",
+      "JetBrains IntelliJ IDEA",
+      "Visual Studio Code",
+      "PyCharm IDE",
+      "Eclipse"
+    ]
+  },
+  { "Version Control": ["GIT (GitHub)", "Version Control Systems (SVN, Git)"] },
+  { "Cloud": ["SharePoint", "Salesforce", "Azure"] },
+  { "CMS System": ["Sitecore 10", "Sitecore 9.1", "Sitecore 9.2"] },
+  {
+    "Other Tools": [
+      "Microsoft Office/Office 365",
+      "Zephyr",
+      "VMware Workstation Pro",
+      "Oracle VirtualBox",
+      "Jira",
+      "Confluence",
+      "Trello",
+      "Postman",
+      "TargetProcess",
+      "Notion"
+    ]
+  },
+  {
+    "Methodology": [
+      "Agile methodologies (SAFe, Scrum)",
+      "Agile (Scrum & Kanban)"
+    ]
+  },
+  { "Integration Technologies": ["RESTful API", "gRPC", "Protobuf"] },
+  { "DevOps": ["GitLab", "TeamCity", "Copado (DevOps)"] },
+  { "Design Tools": ["Figma", "Miro"] }
+]
