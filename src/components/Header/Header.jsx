@@ -1,7 +1,7 @@
 import "./Header.css";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
-import cpu from "/cpu.png";
+import cpu from "../../../public/assets/cpu.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoCloseCircleSharp } from "react-icons/io5";
 import { useMediaQuery } from "react-responsive";
