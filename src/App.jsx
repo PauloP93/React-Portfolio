@@ -28,8 +28,7 @@ function App() {
                 homeDescription={data.HomeDescription}
                 github={data.Github}
                 linkedin={data.Linkedin}
-                carrouselImgs={data.Techstack}
-                myImg={data.MyImg}
+                upwork={data.Upwork}
               />
             ),
           },

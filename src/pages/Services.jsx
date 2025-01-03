@@ -3,16 +3,10 @@ import CyberpunkBtn from "../components/CyberpunkButton/CyberpunkBtn";
 import CyberTechLines from "../components/CyberpunkTechlines/CyberpunkTechLines";
 import CyberpunkServiceTile from "../components/CyberpunkServiceTile/CyberpunkServiceTile";
 import "./Services.css";
-import { useNavigate } from "react-router-dom";
 
 //TODO: Test the media query context and change the code to use it
-//TODO: Adjust the code to adapt to mobile devices
 export default function ServicesPage({ Services }) {
   let ServicesMapped = Object.entries(Services);
-
-  function handleBtnClick() {
-    useNavigate("/contacts");
-  }
 
   return (
     <>
