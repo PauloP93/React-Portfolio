@@ -9,7 +9,7 @@
   line-height: 1em;
 }
 
-@media (max-width: 650px) {
+/* @media (max-width: 650px) {
   .cyberpunk-title {
     font-size: 2.8em;
   }
@@ -19,4 +19,4 @@
   .cyberpunk-title {
     font-size: 6rem;
   }
-}
+} */

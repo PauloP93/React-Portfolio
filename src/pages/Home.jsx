@@ -6,6 +6,8 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaSquareUpwork } from "react-icons/fa6";
 import { useMediaQuery } from "react-responsive";
 
+
+// TODO: Test the media query context and change the code to use it
 export default function HomePage({ homeDescription }) {
   const isDesktop = useMediaQuery({
     query: "(min-width: 1026px)",
@@ -23,7 +25,7 @@ export default function HomePage({ homeDescription }) {
           <div className="lg:w-1/2">
             <CyberpunkH1
               text="Paulo Pimenta"
-              cssClasses="lg:text-8xl mb-7 md:text-[5em] sm:text-[4em]"
+              cssClasses="text-[3em] lg:text-8xl mb-7 md:text-[5em]"
             />
             <p className="text-[1.2em] text-white tomorrow-regular mb-3">
               {homeDescription}
@@ -53,9 +55,9 @@ export default function HomePage({ homeDescription }) {
 
       {isTabletOrMobile && (
         <>
-          <div className="items-center justify-center">
-            <CyberpunkH1 text="Paulo Pimenta" cssClasses="text-center mb-6" />
-            <p className="text-[1.2em] text-white tomorrow-regular mb-3 text-center">
+          <div className="items-center justify-center pt-5">
+            <CyberpunkH1 text="Paulo Pimenta" cssClasses="text-center text-[2.8em] sm:text-[4em] mb-6" />
+            <p className="text-[1.5em] sm:text-[1.5em] text-white break-words tomorrow-regular mb-3 text-center">
               {homeDescription}
             </p>
             <div className="flex flex-row p-0 justify-center text-center">

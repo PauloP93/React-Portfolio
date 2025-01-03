@@ -12,7 +12,7 @@ import ProjectsPage from "./pages/Projects";
 import ServicesPage from "./pages/Services";
 import ContactsPage from "./pages/Contacts";
 import RootLayout from "./Layouts/Root";
-
+import { MediaQueryContextProvider } from "./components/ContextProviders/MediaQueryContext";
 function App() {
   const router = createBrowserRouter(
     [
@@ -52,9 +52,12 @@ function App() {
     { basename: "/React-Portfolio" }
   );
 
+  // TODO: Test the media query context
   return (
     <>
-      <RouterProvider router={router} />
+      <MediaQueryContextProvider>
+        <RouterProvider router={router} />
+      </MediaQueryContextProvider>
     </>
   );
 }

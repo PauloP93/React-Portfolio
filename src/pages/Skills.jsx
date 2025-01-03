@@ -37,15 +37,18 @@ export default function SkillsPage({ skills }) {
   return (
     <>
       <section className="flex flex-col w-fit h-fit mb-8">
-        <CyberpunkH1 text="Skills" cssClasses="text-6xl mb-7" />
-        <div className="flex justify-center items-center m-auto w-full h-fit pr-5">
+        <CyberpunkH1
+          text="Skills"
+          cssClasses="text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-7"
+        />
+        <div className="flex justify-center items-center sm:w-1/2 m-auto lg:w-full lg:h-fit lg:pr-5">
           <CyberpunkSearch
             skillsToFilter={filteredSkills}
             filterList={handleSearchSkills}
           />
         </div>
       </section>
-      <div className="flex justify-center items-center m-auto w-ful h-fit">
+      <div className="flex justify-center items-center m-auto w-ful h-fit relative">
         <CyberTechLines cssClasses="opacity-40 absolute top-1/2" />
       </div>
       {filteredSkills.length === 0 ? (
@@ -53,7 +56,7 @@ export default function SkillsPage({ skills }) {
       ) : (
         ""
       )}
-      <section className="w-full h-fit p-4 mt-[10em] relative grid">
+      <section className="w-full h-fit p-4 relative grid">
         {filteredSkills.map((currentSkill) => (
           <CyberpunkSkillSection
             sectionTitle={Object.keys(currentSkill)[0]}

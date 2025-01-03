@@ -17,7 +17,7 @@
       "technologies": [
         { "tech": ".NET Core", "img": "./assets/dotnet.svg" },
         { "tech": "C#", "img": "./assets/csharp.svg" },
-        { "tech": "NUnit", "img": "" }
+        { "tech": "NUnit", "img": "./assets/nunit.svg" }
       ],
       "type": "Professional"
     },
@@ -39,7 +39,6 @@
       "technologies": [
         { "tech": "C#", "img": "./assets/csharp.svg" },
         { "tech": "ASP.NET MVC", "img": "./assets/dotnet.svg" },
-        { "tech": "PDFSharp", "img": "" },
         { "tech": "jQuery", "img": "./assets/jquery.svg" },
         { "tech": "Bootstrap", "img": "./assets/bootstrap.svg" }
       ],
@@ -89,8 +88,7 @@
       "description": "Created a website for teachers to create, view, and manage CVs online.",
       "technologies": [
         { "tech": "C#", "img": "./assets/csharp.svg" },
-        { "tech": "ASP.NET MVC", "img": "./assets/dotnet.svg" },
-        { "tech": "ADO.NET", "img": "" }
+        { "tech": "ASP.NET MVC", "img": "./assets/dotnet.svg" }
       ],
       "type": "Academic"
     },
@@ -99,7 +97,7 @@
       "description": "Configured SNORT software to detect and block brute force attacks using a virtual machine.",
       "technologies": [
         { "tech": "SNORT", "img": "" },
-        { "tech": "Kali Linux", "img": "" }
+        { "tech": "Kali Linux", "img": "./assets/kalilinux-svgrepo-com.svg" }
       ],
       "type": "Academic"
     },
@@ -128,9 +126,9 @@
       "title": "Magic: The Gathering Deck Builder App",
       "description": "Developed an Android app for creating and saving decks of 'Magic: The Gathering' cards.",
       "technologies": [
-        { "tech": "Android Studio", "img": "" },
+        { "tech": "Android Studio", "img": "./assets/android.png" },
         { "tech": "Java", "img": "./assets/java.svg" },
-        { "tech": "XML", "img": "" },
+        { "tech": "XML", "img": "./assets/xml-svgrepo-com.svg" },
         { "tech": "SQLite", "img": "./assets/sql.svg" },
         { "tech": "JSON", "img": "./assets/json.svg" }
       ],

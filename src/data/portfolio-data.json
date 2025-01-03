@@ -8,67 +8,67 @@
   "Techstack": [
     {
       "Name": "AWS",
-      "Image": "/images/aws-svgrepo-com.svg"
+      "Image": "../../../public/assets/aws-svgrepo-com.svg"
     },
     {
       "Name": "Azure",
-      "Image": "/images/azure-svgrepo-com.svg"
+      "Image": "../../../public/assets/azure-svgrepo-com.svg"
     },
     {
       "Name": "Bootstrap",
-      "Image": "/images/bootstrap-svgrepo-com.svg"
+      "Image": "../../../public/assets/bootstrap-svgrepo-com.svg"
     },
     {
       "Name": "C#",
-      "Image": "/images/csharp-svgrepo-com.svg"
+      "Image": "../../../public/assets/csharp-svgrepo-com.svg"
     },
     {
       "Name": "CSS3",
-      "Image": "/images/css3-svgrepo-com.svg"
+      "Image": "../../../public/assets/css3-svgrepo-com.svg"
     },
     {
       "Name": "Docker",
-      "Image": "/images/docker-svgrepo-com.svg"
+      "Image": "../../../public/assets/docker-svgrepo-com.svg"
     },
     {
       "Name": ".NET",
-      "Image": "/images/dotnet-svgrepo-com.svg"
+      "Image": "../../../public/assets/dotnet-svgrepo-com.svg"
     },
     {
       "Name": "HTML5",
-      "Image": "/images/html-5-svgrepo-com.svg"
+      "Image": "../../../public/assets/html-5-svgrepo-com.svg"
     },
     {
       "Name": "Javascript",
-      "Image": "/images/javascript-svgrepo-com.svg"
+      "Image": "../../../public/assets/javascript-svgrepo-com.svg"
     },
     {
       "Name": "NodeJS",
-      "Image": "/images/node-js-svgrepo-com.svg"
+      "Image": "../../../public/assets/node-js-svgrepo-com.svg"
     },
     {
       "Name": "Postgresql",
-      "Image": "/images/postgresql-svgrepo-com.svg"
+      "Image": "../../../public/assets/postgresql-svgrepo-com.svg"
     },
     {
       "Name": "Python",
-      "Image": "/images/python-svgrepo-com.svg"
+      "Image": "../../../public/assets/python-svgrepo-com.svg"
     },
     {
       "Name": "React",
-      "Image": "/images/react-svgrepo-com.svg"
+      "Image": "../../../public/assets/react-svgrepo-com.svg"
     },
     {
       "Name": "Salesforce",
-      "Image": "/images/salesforce-svgrepo-com.svg"
+      "Image": "../../../public/assets/salesforce-svgrepo-com.svg"
     },
     {
       "Name": "SQL",
-      "Image": "/images/sql-database-generic-svgrepo-com.svg"
+      "Image": "../../../public/assets/sql-database-generic-svgrepo-com.svg"
     },
     {
       "Name": "Tailwind",
-      "Image": "/images/tailwind-svgrepo-com.svg"
+      "Image": "../../../public/assets/tailwind-svgrepo-com.svg"
     }
   ]
 }

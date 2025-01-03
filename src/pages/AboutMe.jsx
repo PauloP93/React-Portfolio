@@ -1,16 +1,20 @@
 import CyberpunkH1 from "../components/CyberpunkTitle/CyberpunkH1";
+import AboutMeJPG from "../../public/assets/aboutme.jpg";
 
 export default function AboutPage() {
   return (
     <>
       <div className="flex flex-row w-fit h-fit mb-8">
-        <CyberpunkH1 text="About Me" cssClasses="text-6xl mb-7" />
+        <CyberpunkH1
+          text="About Me"
+          cssClasses="text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-7"
+        />
       </div>
       <div className="grid grid-cols-2">
         <div className="block">
           <CyberpunkH1
             text="Curious about the mind behind the code?"
-            cssClasses="text-3xl mb-2"
+            cssClasses="text-3xl  mb-2"
           />
           <p className="text-justify tomorrow-regular text-lg mt-[1.5em]">
             I am a passionate and versatile software developer with a strong
@@ -39,7 +43,7 @@ export default function AboutPage() {
         <div className="items-center justify-center flex">
           <img
             className="mx-auto shadow-[1em_1em_10px_#f00]"
-            src="./images/aboutme.jpg"
+            src={AboutMeJPG}
             alt="about_me"
           />
         </div>
