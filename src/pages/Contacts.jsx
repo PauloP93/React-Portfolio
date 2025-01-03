@@ -27,14 +27,14 @@ export default function ContactsPage() {
   return (
     <>
       <div className="flex flex-row w-fit h-fit mb-8">
-        <CyberpunkH1 text="Contacts" cssClasses="text-6xl mb-7" />
+        <CyberpunkH1 text="Contacts" cssClasses="text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-7" />
       </div>
-      <div className="flex justify-center items-center m-auto w-ful h-fit">
+      <div className="flex justify-center items-center m-auto w-full h-fit">
         <CyberTechLines cssClasses="opacity-40 absolute top-1/2" />
       </div>
       <div className="flex justify-center items-center relative">
         <form
-          className="flex flex-col cyberpunk-form w-1/2 h-1/2 p-4"
+          className="flex flex-col cyberpunk-form lg:w-1/2 lg:h-1/2 p-4"
           onSubmit={submitForm}
         >
           <CyberpunkH1
@@ -42,8 +42,8 @@ export default function ContactsPage() {
             cssClasses="text-2xl mb-[2.5em] text-center"
           />
           {/* Name */}
-          <div className="flex flex-row">
-            <label className="mr-4 w-1/12" htmlFor="name">
+          <div className="flex flex-row justify-center items-center">
+            <label className="mr-4 lg:w-1/12" htmlFor="name">
               Name
             </label>
             <input
@@ -55,8 +55,8 @@ export default function ContactsPage() {
             />
           </div>
           {/* Email */}
-          <div className="flex flex-row mt-[1.5em]">
-            <label className="mr-4 w-1/12" htmlFor="email">
+          <div className="flex flex-row justify-center items-center mt-[1.5em]">
+            <label className="mr-4 lg:w-1/12" htmlFor="email">
               Email
             </label>
             <input
@@ -68,8 +68,8 @@ export default function ContactsPage() {
             />
           </div>
           {/* Subject */}
-          <div className="flex flex-row mt-[1.5em]">
-            <label className="mr-4 w-1/12" htmlFor="subject">
+          <div className="flex flex-row justify-center items-center mt-[1.5em]">
+            <label className="mr-4 lg:w-1/12" htmlFor="subject">
               Subject
             </label>
             <input
@@ -82,14 +82,14 @@ export default function ContactsPage() {
           </div>
           {/* Message */}
           <div className="mt-[1.5em] flex flex-col">
-            <label className="mb-4 w-1/12" htmlFor="message">
+            <label className="mb-4 lg:w-1/12" htmlFor="message">
               Message
             </label>
             <textarea
               ref={messageForm}
               id="message"
               name="message"
-              className="max-w-full resize max-h-[10em] cyberpunk-input"
+              className="max-w-full resize max-h-[10em] cyberpunk-input w-full"
             ></textarea>
           </div>
           <CyberpunkBtn
